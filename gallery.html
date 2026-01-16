@@ -212,8 +212,14 @@
     </footer>
 
     <!-- Scripts -->
+    <!-- Supabase Client for Dynamic Gallery -->
+    <script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
     <script src="js/language-toggle.js"></script>
     <script src="js/main.js"></script>
     <script src="js/gallery.js"></script>
+    <!-- Dynamic Gallery Loader (loads from Supabase) -->
+    <script src="js/gallery-loader.js"
+            data-supabase-url="YOUR_SUPABASE_URL"
+            data-supabase-key="YOUR_SUPABASE_ANON_KEY"></script>
 </body>
 </html>
