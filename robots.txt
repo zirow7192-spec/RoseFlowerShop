@@ -1,6 +1,0 @@
-# Rose Flower Shop - Robots.txt
-# Excludes admin area from search engines
-
-User-agent: *
-Disallow: /admin/
-Disallow: /admin
